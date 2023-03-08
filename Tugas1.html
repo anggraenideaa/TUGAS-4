@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title></title>
+</head>
+<script src="jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$(".sembunyi").click(function(){
+			$("#foto").hide("slow")
+			$("#foto2").hide("slow")});
+		$(".tampil").click(function() {
+			$("#foto").show("slow")
+			$("#foto2").show("slow")});
+	});
+	$(document).ready(function () {
+		$(".bersembunyi").click(function() {$("#gambar").hide("slow")});
+		$(".menampilkan").click(function() {$("#gambar").show("slow")});
+	});
+</script>
+<body>
+	<button class="sembunyi">sembunyikan</button>
+	<button class="tampil">tampilkan</button>
+	<p>
+		<img id="foto" src="UPN.png" width="250" height="250">
+		<img id="foto2" src="fasilkom.jpg" width="250" height="250">
+	</p>
+
+	<button class="bersembunyi">sembunyikan</button>
+	<button class="menampilkan">tampilkan</button>
+	<p><img id="gambar" src="HIMASIFO.png" width="250" height="250"></p>
+</body>
+</html>

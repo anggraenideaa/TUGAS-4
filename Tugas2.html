@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#kotak1").dblclick(function(){
+				$("#kotak1").css("background","red");});
+		});
+		$(document).ready(function() {
+			$("#kotak2").dblclick(function(){
+				$("#kotak2").css("background","red");});
+		});
+		$(document).ready(function() {
+			$("#kotak3").dblclick(function(){
+				$("#kotak3").css("background","red");});
+		});
+		$(document).ready(function() {
+			$("#kotak4").dblclick(function(){
+				$("#kotak4").css("background","red");});
+		});
+		
+	</script>
+	<style type="text/css">
+		#kotak1{
+			width: 50px;
+			height: 50px;
+			background: yellow;
+			padding: 5px;
+			margin: 8px;
+			float: left;
+		}
+		#kotak2{
+			display: flex;
+			width: 50px;
+			height: 50px;
+			background: yellow;
+			padding: 5px;
+			margin: 8px;
+			float: left;		
+		}
+		#kotak3{
+			width: 50px;
+			height: 50px;
+			background: yellow;
+			padding: 5px;
+			margin: 8px;
+			float: left;
+		}
+		#kotak4{
+			width: 50px;
+			height: 50px;
+			background: yellow;
+			padding: 5px;
+			margin: 8px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<p>
+		klik 2x pada setiap kotak untuk mengubah warnanya
+	</p>
+	<p id="kotak1"></p>
+	<p id="kotak2"></p>
+	<p id="kotak3"></p>
+	<p id="kotak4"></p>
+
+</body>
+</html>
